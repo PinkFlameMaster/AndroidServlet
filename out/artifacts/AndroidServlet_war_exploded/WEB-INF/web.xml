@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>AbandonServlet</servlet-name>
+        <servlet-class>AbandonServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AbandonServlet</servlet-name>
+        <url-pattern>/AbandonServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CancelServlet</servlet-name>
+        <servlet-class>CancelServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CancelServlet</servlet-name>
+        <url-pattern>/CancelServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FinishServlet</servlet-name>
+        <servlet-class>FinishServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FinishServlet</servlet-name>
+        <url-pattern>/FinishServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>MyMissionServlet</servlet-name>
+        <servlet-class>MyMissionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyMissionServlet</servlet-name>
+        <url-pattern>/MyMissionServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ReceiveServlet</servlet-name>
+        <servlet-class>ReceiveServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReceiveServlet</servlet-name>
+        <url-pattern>/ReceiveServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ReleaseServlet</servlet-name>
+        <servlet-class>ReleaseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReleaseServlet</servlet-name>
+        <url-pattern>/ReleaseServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
